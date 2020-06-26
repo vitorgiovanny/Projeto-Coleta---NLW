@@ -1,0 +1,35 @@
+<html>
+<!-- https://jsfiddle.net/vitorgiovanny/dpwLyak5/ -->
+<!-- https://jsfiddle.net/#&togetherjs=Sn4OKSf7KF -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="style/main.css">
+{% block title %}
+<title>Ecoleta</title>
+{% endblock title %}
+
+
+{% block styles %}
+
+{% endblock styles %}
+
+  <link rel="stylesheet" href="style/responsive.css">
+</head>
+
+<body>
+  <div id="{{ pageId }}">
+    {% block content %}
+    
+    {% endblock content %}
+  </div>
+  
+  {% block modal %}
+  {% endblock modal %}
+
+  {% block scripts %}
+  {% endblock scripts %}
+</body>
+
+</html>
